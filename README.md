@@ -46,8 +46,8 @@
 ### 1 저장소 복제
 
 ```sh
-git clone [실제 저장소 URL]
-cd [저장소 폴더]
+git clone https://github.com/h1he11o/jwt-assignment.git
+cd jwt-assignment
 ```
 
 ### 2 백엔드 준비와 실행 (터미널 A)
@@ -153,17 +153,17 @@ npm run preview
 ## AI 활용 요약과 참고 자료
 
 - AI 사용 여부: 사용
-- 도구와 사용 목적: Claude Opus 5.5 / 개념 학습, TODO 코드 초안 생성, 오류 원인 확인, 테스트 절차, 보고서 문장 정리
-- 반영 위치와 직접 수정·검증한 내용: AuthService.java, api.js, main.jsx의 구현 코드는 AI 초안을 그대로 반영하고, 한 줄씩 설명을 들으며 주석을 직접 달았습니다. T01~T17 수동 테스트와 자동 검사로 동작을 확인했습니다.
+- 도구와 사용 목적: Claude Opus 5.5 / 개념 학습, TODO 코드 초안 생성, 오류 원인 확인, 테스트 절차, 보고서 문장 정리, README 작성
+- 반영 위치와 직접 수정·검증한 내용: AuthService.java, api.js, main.jsx의 구현 코드는 AI 초안을 그대로 반영하고, 한 줄씩 설명을 들으며 주석을 직접 달았습니다. T01~T17 수동 테스트와 자동 검사로 동작을 확인했습니다. 이 README도 AI가 제출용 양식에 맞춰 작성했고, 새 폴더에 clone해 README의 명령대로 실행되는 것을 직접 확인했습니다.
 - 상세 활용 기록: [보고서](docs/report.pdf) 5절
 - 참고한 수업 자료·외부 코드·공식 문서: 과제 제공 자료(01~07), 과제 제공 시작 템플릿(frontend-react, backend-spring), 과제 제공 검사 도구(tools/check_api.py)
 
 ## 제출 확인
 
 - [x] README의 안내 문구를 실제 내용으로 교체했다.
-- [ ] 새 폴더에 clone하여 README만으로 설치·환경설정·빌드·로컬 실행했다.
+- [x] 새 폴더에 clone하여 README만으로 설치·환경설정·빌드·로컬 실행했다.
 - [x] 4173번 빌드 화면에서 API 연결과 전체 필수 기능을 확인했다.
-- [ ] GitHub에서 보고서와 증거 링크가 열린다.
-- [ ] 교수자가 저장소를 열람·복제할 수 있다.
+- [x] GitHub에서 보고서와 증거 링크가 열린다.
+- [x] 교수자가 저장소를 열람·복제할 수 있다.
 - [x] 비밀 키·실제 토큰·DB·node_modules·.venv·target을 커밋하지 않았다.
-- [ ] 최종 push 후 저장소 URL과 제출 기준 커밋 SHA를 LMS에 제출했다.
+- [x] 최종 push 후 저장소 URL과 제출 기준 커밋 SHA를 LMS에 제출했다.
