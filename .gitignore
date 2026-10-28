@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+target/
+data/
+.env
+.DS_Store
+.idea/
+backend-express/
+backend-fastapi/
+frontend-vue/
